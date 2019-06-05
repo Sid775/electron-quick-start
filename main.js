@@ -16,7 +16,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('index2.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
@@ -28,6 +28,9 @@ function createWindow () {
     // when you should delete the corresponding element.
     mainWindow = null
   })
+
+  mainWindow.setMenu(null)
+  mainWindow.setFullScreen(true)
 }
 
 // This method will be called when Electron has finished

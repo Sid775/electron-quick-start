@@ -1,0 +1,19 @@
+#grid,
+#grid2,
+#grid3 {
+    display: grid;
+    color: #fff;
+    font-weight: 500;
+}
+
+#grid {
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 50px auto;
+}
+
+.grid-item {
+    padding: .2em;
+    background: #93964f;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
