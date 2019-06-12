@@ -2,14 +2,14 @@ let $ = require('jquery')  // jQuery now loaded and assigned to $
 let count = 0
 let theUrl = "http://localhost:5000/api/1.0/users"
 
-$('#test').hide()
+$('#ilay').hide()
 
 function hide() {
     var faces = getFaces()
     if (faces.length <= 2) {
-        $('#test').hide()
+        $('#ilay').hide()
     } else {
-        $('#test').show()
+        $('#ilay').show()
     }
 }
 
